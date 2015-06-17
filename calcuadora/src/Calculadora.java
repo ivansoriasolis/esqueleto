@@ -8,7 +8,7 @@ public class Calculadora {
         return 0;
     }
     public float multiplicacion(float var1,float var2){
-        return 0;
+        return var1*var2;
     }
     public float division(float var1,float var2){
         return var1/var2;

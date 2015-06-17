@@ -11,6 +11,10 @@ public class Calculadora {
         return 0;
     }
     public float division(float var1,float var2){
-        return var1/var2;
+        float divicion=0;
+        if(var2>0){
+            divicion=var1/var2;
+        }
+        return divicion;
     }
 }
